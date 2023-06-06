@@ -1,5 +1,7 @@
+
 from tensorflow import keras
 import tensorflow as tf
+tf.config.set_visible_devices([], 'GPU')
 from keras.layers import LSTM, Input,Embedding,Dense,GlobalMaxPooling1D,Flatten
 from keras.preprocessing.text import Tokenizer
 import json
@@ -20,7 +22,7 @@ import pandas as pd
 #import pandas as pd
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from sklearn.preprocessing import LabelEncoder
-model=tf.keras.models.load_model("model5.h5",compile=false)
+model=tf.keras.models.load_model("model5.h5",compile=False)
 model.compile()
 app=FastAPI()
 
