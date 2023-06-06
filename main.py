@@ -1,4 +1,5 @@
-
+import os
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 from tensorflow import keras
 import tensorflow as tf
 tf.config.set_visible_devices([], 'GPU')
