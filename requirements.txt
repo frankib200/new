@@ -1,5 +1,7 @@
+nvidia-pyindex==2.0
+nvidia-tensorrt==7.2.3.4
 tensorflow-gpu==2.0
-tensorflow-estimator==2.1.0
+tensorflow-estimator==2.12
 pip==23.1.2
 fastapi==0.96.0
 keras==2.10.0
