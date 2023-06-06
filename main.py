@@ -72,7 +72,7 @@ class UserInput(BaseModel):
 
 
     
-    prediction_input=input("")
+    prediction_input:str
 
     
 
