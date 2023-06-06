@@ -4,7 +4,7 @@ tensorflow-gpu==2.0
 tensorflow-estimator==2.11
 pip==23.1.2
 fastapi==0.96.0
-keras==2.12
+
 nltk==3.8.1
 numpy==1.20
 pandas==1.0
