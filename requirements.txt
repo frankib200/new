@@ -1,5 +1,5 @@
 nvidia-pyindex==1.0.9
-nvidia-tensorrt==7.2.3.4
+nvidia-tensorrt==0.0.1
 tensorflow-gpu==2.0
 tensorflow-estimator==2.12
 pip==23.1.2
