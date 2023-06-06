@@ -1,4 +1,4 @@
-nvidia-pyindex==2.0
+nvidia-pyindex==1.0.9
 nvidia-tensorrt==7.2.3.4
 tensorflow-gpu==2.0
 tensorflow-estimator==2.12
