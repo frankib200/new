@@ -1,0 +1,525 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Is anyone there?",
+       "Hello",
+       "'Good day",
+        "heyy",
+        "hey",
+        "??? ??? ??"
+       
+      ],
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        
+   "cya",
+    "see you",
+    "'bye bye",
+    "See you later",
+    "Goodbye",
+    "I am Lea'ving",
+    "Bye",
+    "Have a Good day",
+    "talk to you later",
+    "ttyl",
+    "i got to go",
+    "gtg"
+        
+    
+       
+        
+     
+
+      ],
+      "responses": [
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!",
+        "Come back soon"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "what is the name of your developers",
+        "what is the name of your creators",
+        "what is the name of the developers",
+        "what is the name of the creators",
+        "who created you",
+        "your developers",
+        "your creators",
+        "who are your developers",
+        "developers",
+        "you are made by",
+        "you are made by whom",
+        "who created you",
+        "who create you",
+        "creators",
+        "who made you",
+        "who designed you",
+        "who made u"
+      
+      ],
+      "responses": [
+        "College students"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "name",
+        "your name",
+        "do you have a name",
+        "what are you called",
+        "what is your name",
+        "what should I call you",
+        "whats your name?",
+        "what are you",
+        "who are you",
+        "who is this",
+        "what am i chatting to",
+        "you",
+        "who are u"
+        
+      
+      ],
+      "responses": [
+        "You can call me Mind Reader.",
+        "I'm Mind Reader",
+        "I am a Chatbot.",
+        "I am your helper"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "number",
+      "patterns": [
+        "more info",
+        "contact info",
+        "how to contact college",
+        "college telephone number",
+        "college number",
+        "What is your contact no",
+        "Contact number?",
+        "how to call you",
+        "College phone no?",
+        "how can i contact you",
+        "Can i get your phone number",
+        "how can i call you",
+        "phone number",
+        "phone no",
+        "call"
+      ],
+      "responses": [
+        "I'm a LSTM model I'm not able to do that "
+      ],
+      "context_set": ""
+    },
+
+
+
+    {
+      "tag": "random",
+      "patterns": [
+        "I love you",
+        "Will you marry me",
+        "Do you love me"
+        ,
+        "i like you"
+      ],
+      "responses": [
+        "I am not program for this, I'm a LSTM model"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "swear",
+      "patterns": [
+        "fuck",
+        "bitch",
+        "shut up",
+        "hell",
+        "stupid",
+        "idiot",
+        "dumb ass",
+        "asshole",
+        "fucker",
+        "shit"
+      ],
+      "responses": [
+        "please use appropriate language"
+   
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "task",
+      "patterns": [
+        "what can you do",
+        "what can u do",
+        "what are the thing you can do",
+        "things you can do",
+        "what can u do for me",
+        "how u can help me",
+        "why i should use you"
+      ],
+      "responses": [
+        "I can answer questions regarding skin diseases and I can show you how to treat them",
+        "You can ask me questions  about skin diseases and I can show you how to treat them"
+      ],
+      "context_set": ""
+    },
+    
+    {
+      "tag": "generalgreeting",
+      "patterns": [
+        "how you doing",
+        "How are you?",
+        "you are okay",
+        "you are good today?",
+        "wassup",
+        
+        "how are ya",
+        
+        "whatsup"
+       
+      ],
+      "responses": [
+        "I'm good thanks for asking how can I help!",
+        "Yes I'm fine how can I help you today?",
+        "I'm good and here to help you "
+      ]
+    },
+
+    {
+      "tag":"eczema",
+      "patterns":[
+        "eczema?",
+        "Eczema",
+        
+        "What the describtion of eczema",
+        "Eczema is",
+        "What the mean of eczema",
+        "Give me the describtion of eszema",
+        "what is eczema",
+        "what is  the eczema"
+    ],
+      "responses":[
+        "The eczema is a common skin condition where your skin becomes dry, itchy and easily irritated. Eczema can appear as areas of red, dry skin, most commonly in the creases of your elbows, behind your knees and on your wrists and ankles.",
+        "The describtion of eczema is a common skin condition where your skin becomes dry, itchy and easily irritated. Eczema can appear as areas of red, dry skin, most commonly in the creases of your elbows, behind your knees and on your wrists and ankles.",
+        "The mean of eczema is a common skin condition where your skin becomes dry, itchy and easily irritated. Eczema can appear as areas of red, dry skin, most commonly in the creases of your elbows, behind your knees and on your wrists and ankles."
+  ]
+    },
+
+    {
+      "tag":"thetreatofeczema",
+      "patterns":[
+        "How to treat eczema",
+        "How to deal with eczema",
+        "How to get rid of eczema",
+        "How to reduce symptoms of eczema "
+      ],
+      "responses":[
+        "You can treat eczema by moisturize your skin at least twice a day,Apply an anti-itch cream to the affected area,Take an oral allergy or anti-itch medication,Don't scratch,Take a daily bath or shower,Use a gentle and nonsoap cleanser,Take a bleach bath,Use a humidifier,Wear cool, smooth-textured clothing,Treat stress and anxiety",
+        "You can get rid from eczema by moisturize your skin at least twice a day,Apply an anti-itch cream to the affected area,Take an oral allergy or anti-itch medication,Don't scratch,Take a daily bath or shower,Use a gentle and nonsoap cleanser,Take a bleach bath,Use a humidifier,Wear cool, smooth-textured clothing,Treat stress and anxiety",
+        "You can reduce symptoms of eczema by moisturize your skin at least twice a day,Apply an anti-itch cream to the affected area,Take an oral allergy or anti-itch medication,Don't scratch,Take a daily bath or shower,Use a gentle and nonsoap cleanser,Take a bleach bath,Use a humidifier,Wear cool, smooth-textured clothing,Treat stress and anxiety"
+      ]
+    },
+
+    {
+      "tag":"atopic",
+      "patterns":[
+        "What the describtion of atopic",
+        "Atopic is",
+        " what is Atopic",
+        "What the mean of atopic",
+        "Give me the describtion of atopic"
+    ],
+      "responses":[
+        "The atopic dermatitis is a disorder characterized by inflammation of the skin (dermatitis),the condition usually begins in early infancy and it often disappears before adolescence affected individuals the condition continues into adulthood in others, it does not begin until adulthood,hallmarks of atopic dermatitis include dry, itchy skin and red rashes that come and go",
+        "The describtion of atopic is a disorder characterized by inflammation of the skin (dermatitis),the condition usually begins in early infancy and it often disappears before adolescence affected individuals the condition continues into adulthood in others, it does not begin until adulthood,hallmarks of atopic dermatitis include dry, itchy skin and red rashes that come and go",
+        "The mean of atopic is a disorder characterized by inflammation of the skin (dermatitis),the condition usually begins in early infancy and it often disappears before adolescence affected individuals the condition continues into adulthood in others, it does not begin until adulthood,hallmarks of atopic dermatitis include dry, itchy skin and red rashes that come and go "
+    ]
+    },
+    {
+      "tag":"thetreatofatopic",
+      "patterns":[
+        "How to deal atopic",
+        "How to treat atopic",
+        "How to get rid of atopic",
+        "How to reduce symptoms of atopic"
+      ],
+      "responses":[
+        "You can treat atopic by avoid scratching the rash or skin,relieve the itch by using a moisturizer or topical steroids,keep your fingernails cut short,lubricate or moisturize the skin two to three times a day using ointments such as petroleum jelly,avoid anything that worsens symptoms, including: irritants such as wool and lanolin ,strong soaps or detergents,sudden changes in body temperature and stress, which may cause sweating,When washing or bathing keep water contact as brief as possible and use gentle body washes and cleansers instead of regular soaps,do not scrub or dry the skin too hard or for too long,after bathing, apply lubricating ointments to damp skin. This will help trap moisture in the skin",
+        "You can get rid from atopic by avoid scratching the rash or skin,relieve the itch by using a moisturizer or topical steroids,keep your fingernails cut short,lubricate or moisturize the skin two to three times a day using ointments such as petroleum jelly,avoid anything that worsens symptoms, including: irritants such as wool and lanolin ,strong soaps or detergents,sudden changes in body temperature and stress, which may cause sweating,When washing or bathing keep water contact as brief as possible and use gentle body washes and cleansers instead of regular soaps,do not scrub or dry the skin too hard or for too long,after bathing, apply lubricating ointments to damp skin. This will help trap moisture in the skin",
+        "You can reduce symptoms of atopic by avoid scratching the rash or skin,relieve the itch by using a moisturizer or topical steroids,keep your fingernails cut short,lubricate or moisturize the skin two to three times a day using ointments such as petroleum jelly,avoid anything that worsens symptoms, including: irritants such as wool and lanolin ,strong soaps or detergents,sudden changes in body temperature and stress, which may cause sweating,When washing or bathing keep water contact as brief as possible and use gentle body washes and cleansers instead of regular soaps,do not scrub or dry the skin too hard or for too long,after bathing, apply lubricating ointments to damp skin. This will help trap moisture in the skin"
+      ]
+    },
+    {
+      "tag":"melanoma",
+      "patterns":[
+        "What the describtion of melanoma",
+        "melanoma is",
+        "The mean of melanoma",
+        "Give me the describtion of melanoma"
+    ],
+      "responses":[
+        "The melanoma is a cancer that begins in the melanocytes, Most melanoma cells still make melanin, so melanoma tumors are usually brown or black, but some melanomas do not make melanin and can appear pink, tan, or even white.",
+        "The describtion of melanoma that it is a cancer that begins in the melanocytes, Most melanoma cells still make melanin, so melanoma tumors are usually brown or black, but some melanomas do not make melanin and can appear pink, tan, or even white",
+        "The mean of melanoma is a cancer that begins in the melanocytes, Most melanoma cells still make melanin, so melanoma tumors are usually brown or black, but some melanomas do not make melanin and can appear pink, tan, or even white"
+  ]
+    },
+    {
+      "tag":"thetreatofmelanoma",
+      "patterns":[
+        "How to treat melanoma",
+        "How to get rid of melanoma",
+        "How to reduce symptoms of melanoma"
+      ],
+      "responses":[
+        "You can treat melanoma by a surgery to remove the tumor is the primary treatment of all stages of melanoma, a wide local excision is used to remove the melanoma and some of the normal tissue around it, skin grafting (taking skin from another part of the body to replace the skin that is removed) may be done to cover the wound caused by surgery",
+        "You can get rid from melanoma by a surgery to remove the tumor is the primary treatment of all stages of melanoma, a wide local excision is used to remove the melanoma and some of the normal tissue around it, skin grafting (taking skin from another part of the body to replace the skin that is removed) may be done to cover the wound caused by surgery",
+        "You can reduce symptoms of melanoma by a surgery to remove the tumor is the primary treatment of all stages of melanoma, a wide local excision is used to remove the melanoma and some of the normal tissue around it, skin grafting (taking skin from another part of the body to replace the skin that is removed) may be done to cover the wound caused by surgery"
+      ]
+    },
+    {
+      "tag":"molluscum",
+      "patterns":[
+        "What the describtion of molluscum",
+        "Molluscum is",
+        "What the mean of molluscum",
+        "Give me the describtion of molluscum"
+    ],
+      "responses":[
+        "The molluscum is an infection caused by a poxvirus the result of the infection is usually a benign, mild skin disease characterized by lesions (growths) that may appear anywhere on the body.",
+        "The describtion of molluscum is an infection caused by a poxvirus the result of the infection is usually a benign, mild skin disease characterized by lesions (growths) that may appear anywhere on the body.",
+        "The mean of molluscum is an infection caused by a poxvirus the result of the infection is usually a benign, mild skin disease characterized by lesions (growths) that may appear anywhere on the body."
+  ]
+    },
+    {
+      "tag":"thetreatofmolluscum",
+      "patterns":[
+        "How to treat molluscum",
+        "How to get rid of molluscum",
+        "How to reduce symptoms of molluscum"
+      ],
+      "responses":[
+        "You can treat molluscum by a physical removal of lesions may include cryotherapy (freezing the lesion with liquid nitrogen), curettage (the piercing of the core and scraping of caseous or cheesy material), and laser therapy.",
+        "You can get rid from  molluscum by a physical removal of lesions may include cryotherapy (freezing the lesion with liquid nitrogen), curettage (the piercing of the core and scraping of caseous or cheesy material), and laser therapy.",
+        "You can reduce symptoms of molluscum by a physical removal of lesions may include cryotherapy (freezing the lesion with liquid nitrogen), curettage (the piercing of the core and scraping of caseous or cheesy material), and laser therapy."
+      ]
+    },
+
+    {
+      "tag":"basal cell",
+      "patterns":[
+        "What the describtion of basal cell",
+        "Basal cell is",
+        "What the mean of basal cell",
+        "Give me the describtion of basal cell"
+    ],
+      "responses":[
+        "The basal cell is a type of skin cancer,basal cell carcinoma begins in the basal cells — a type of cell within the skin that produces new skin cells as old ones die off.",
+        "The describtion of basal cell is a type of skin cancer,basal cell carcinoma begins in the basal cells — a type of cell within the skin that produces new skin cells as old ones die off",
+        "The mean of basal cell is a type of skin cancer,basal cell carcinoma begins in the basal cells — a type of cell within the skin that produces new skin cells as old ones die off"
+  ]
+    },
+    {
+      "tag":"treatofbasalcell",
+      "patterns":[
+        "How to treat basal cell",
+        "How to get rid of basal cell",
+        "How to reduce symptoms of basal cell"
+      ],
+      "responses":[
+        "You can treat basal cell with surgery to remove all of the cancer and some of the healthy tissue around it,options might include: surgical excision,in this procedure, your doctor cuts out the cancerous lesion and a surrounding margin of healthy skin.",
+        "You can get rid from basal cell with surgery to remove all of the cancer and some of the healthy tissue around it,options might include: surgical excision,in this procedure, your doctor cuts out the cancerous lesion and a surrounding margin of healthy skin.",
+        "You can reduce symptoms of basal cell with surgery to remove all of the cancer and some of the healthy tissue around it,options might include: surgical excision,in this procedure, your doctor cuts out the cancerous lesion and a surrounding margin of healthy skin."
+      ]
+    },
+
+    {
+      "tag":"melanocytic",
+      "patterns":[
+        "What the describtion of melanocytic",
+        "melanocytic is",
+        "What the mean of melanocytic ",
+        "Give me the describtion of melanocytic"
+    ],
+      "responses":[
+        "The melanocytic is a type of pigment cell that, in particular, produce melanin, and occurs in the epidermal layer of the skin, in the uveal layer of the eye, the inner ear, the meninges, the heart, and the bones",
+        "The describtion of melanocytic is type of pigment cell that, in particular, produce melanin, and occurs in the epidermal layer of the skin, in the uveal layer of the eye, the inner ear, the meninges, the heart, and the bones",
+        "The mean of melanocytic that is a type of pigment cell that, in particular, produce melanin, and occurs in the epidermal layer of the skin, in the uveal layer of the eye, the inner ear, the meninges, the heart, and the bones"
+  ]
+    },
+    {
+      "tag":"treatofmelanocytic",
+      "patterns":[
+        "How to treat melanocytic",
+        "How to get rid of melanocytic",
+        "How to reduce symptoms of melanocytic"
+      ],
+      "responses":[
+        "You can treat melanocytic surgically removed for cosmetic considerations or because of concern regarding the biological potential of a lesion, melanocytic nevi removed for cosmesis are often removed by tangential or shave excision,punch excision can be used for relatively small lesions.",
+        "You can get rid from melanocytic surgically removed for cosmetic considerations or because of concern regarding the biological potential of a lesion, melanocytic nevi removed for cosmesis are often removed by tangential or shave excision,punch excision can be used for relatively small lesions.",
+        "You can reduce symptoms of melanocytic surgically removed for cosmetic considerations or because of concern regarding the biological potential of a lesion, melanocytic nevi removed for cosmesis are often removed by tangential or shave excision,punch excision can be used for relatively small lesions."
+      ]
+    },
+
+    {
+      "tag":"benign",
+      "patterns":[
+        "What the describtion of benign",
+        "benign is",
+        "What the mean of benign",
+        "Give me the describtion of benign"
+    ],
+      "responses":[
+        "The benign refers to a condition, tumor, or growth that is not cancerous,this means that it does not spread to other parts of the body,it does not invade nearby tissue,sometimes, a condition is called benign to suggest it is not dangerous or serious",
+        "The describtion of benign it refers to a condition, tumor, or growth that is not cancerous,this means that it does not spread to other parts of the body,it does not invade nearby tissue,sometimes, a condition is called benign to suggest it is not dangerous or serious",
+        "The mean of benign it refers to condition, tumor, or growth that is not cancerous,this means that it does not spread to other parts of the body,it does not invade nearby tissue,sometimes, a condition is called benign to suggest it is not dangerous or serious "
+  ]
+    },
+    {
+      "tag":"treatofbenign",
+      "patterns":[
+        "How to treat benign",
+        "How to get rid of benign",
+        "How to reduce symptoms of benign"
+      ],
+      "responses":[
+        "You can treat benign by a surgery that it is a common type of treatment,the goal is to remove the tumor without damaging surrounding tissues,other types of treatment may include medication or radiation.",
+        "You can get rid from benign by  a surgery that it is a common type of treatment,the goal is to remove the tumor without damaging surrounding tissues,other types of treatment may include medication or radiation.",
+        "You can reduce symptoms of benign by  a surgery that it is a common type of treatment,the goal is to remove the tumor without damaging surrounding tissues,other types of treatment may include medication or radiation."
+      ]
+    },
+
+    {
+      "tag":"psoriasis",
+      "patterns":[
+        "What the describtion of psoriasis",
+        "psoriasis is",
+        "What the mean of psoriasis",
+        "Give me the describtion of psoriasis "
+    ],
+      "responses":[
+        "The psoriasis is a condition in which skin cells build up and form scales and itchy, dry patches",
+        "The describtion of psoriasis a condition in which skin cells build up and form scales and itchy, dry patches",
+        "The mean of psoriasis a condition in which skin cells build up and form scales and itchy, dry patches"
+  ]
+    },
+    {
+      "tag":"treatofpsoriasis",
+      "patterns":[
+        "How to treat psoriasis",
+        "How to get rid of psoriasis",
+        "How to reduce symptoms of psoriasis"
+      ],
+      "responses":[
+        "You can treat psoriasis by putting creams and ointments (topical therapy), light therapy (phototherapy), and oral or injected medications.",
+        "You can get rid from psoriasis by putting creams and ointments (topical therapy), light therapy (phototherapy), and oral or injected medications.",
+        "You can reduce symptoms of psoriasis by putting creams and ointments (topical therapy), light therapy (phototherapy), and oral or injected medications."
+      ]
+    },
+
+    {
+      "tag":"seborrheic keratosis",
+      "patterns":[
+        "C",
+        "seborrheic keratosis is",
+        "What the mean of seborrheic keratosis",
+        "Give me the describtion of "
+    ],
+      "responses":[
+        "The seborrheic keratosis is a common noncancerous (benign) skin growth. People tend to get more of them as they get older.",
+        "The describtion of seborrheic keratosis is a common noncancerous (benign) skin growth. People tend to get more of them as they get older.",
+        "The mean of seborrheic keratosis is a common noncancerous (benign) skin growth. People tend to get more of them as they get older. "
+  ]
+    },
+    {
+      "tag":"treatofseborrheickeratosis",
+      "patterns":[
+        "How to treat seborrheic keratosis",
+        "How to get rid of seborrheic keratosis",
+        "How to reduce symptoms of seborrheic keratosis"
+      ],
+      "responses":[
+        "You can treat seborrheic by electrodessication/curettage,shave excision,laser therapy,prescription hydrogen peroxide",
+        "You can get rid from seborrheic keratosis by electrodessication/curettage,shave excision,laser therapy,prescription hydrogen peroxide",
+        "You can reduce symptoms of seborrheic keratosis by electrodessication/curettage,shave excision,laser therapy,prescription hydrogen peroxide"
+      ]
+    },
+
+    {
+      "tag":"ringworm",
+      "patterns":[
+        "What the describtion of ringworm",
+        "ringworm is",
+        "What the mean of ringworm",
+        "Give me the describtion of ringworm"
+    ],
+      "responses":[
+        "The ringworm spread by skin-to-skin contact or by touching an infected animal or object,it is typically scaly and may be red and itchy,ringworm of the scalp is common in children, where it may cause bald patches.",
+        "The describtion of ringworm is spread by skin-to-skin contact or by touching an infected animal or object,it is typically scaly and may be red and itchy,ringworm of the scalp is common in children, where it may cause bald patches.",
+        "The mean of ringworm is spread by skin-to-skin contact or by touching an infected animal or object, ringworm is typically scaly and may be red and itchy, ringworm of the scalp is common in children, where it may cause bald patches."
+  ]
+    },
+    {
+      "tag":"treatofringworm",
+      "patterns":[
+        "How to treat ringworm",
+        "How to get rid of ringworm",
+        "How to reduce symptoms of ringworm"
+      ],
+      "responses":[
+        "You can treat ringworm with non-prescription antifungal creams, lotions, or powders applied to the skin for 2 to 4 weeks.",
+        "You can get rid from ringworm by with non-prescription antifungal creams, lotions, or powders applied to the skin for 2 to 4 weeks.",
+        "You can reduce symptoms of ringworm with non-prescription antifungal creams, lotions, or powders applied to the skin for 2 to 4 weeks."
+      ]
+    },
+
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "wow",
+        "thanks",
+        "thank you ",
+        "you are the best thank you so much",
+        "thx"
+        ,
+        
+        " thank you for helping",
+        
+        "thanks for your help"
+       
+      ],
+      "responses": [
+        "You are welcome anything I can assist you with?",
+        "Glad i was able to help you anything else?",
+        "no problem anything else? ",
+        "anything  i can help you with?"
+
+      ]
+    }
+    
+
+
+
+      ]
+    }
